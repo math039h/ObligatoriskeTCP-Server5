@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+    <RootNamespace>ObligatoriskeTCP_Server</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.3-beta1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="ObligatoriskBibloteksProject">
+      <HintPath>..\..\ObligatoriskBibloteksProject\ObligatoriskBibloteksProject\bin\Debug\netcoreapp2.1\ObligatoriskBibloteksProject.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
